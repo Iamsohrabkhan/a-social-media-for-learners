@@ -8,7 +8,12 @@ module.exports = {
   theme: {
     darkMode: 'class',
     extend: {
-     
+        animation: {
+          'fade-slow': 'fade 2s both',
+        },
+      transitionTimingFunction: {
+        bounce: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+      },
     },
   },
   plugins: [require('tailwindcss-animated')],

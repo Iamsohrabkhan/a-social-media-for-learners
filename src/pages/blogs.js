@@ -18,7 +18,7 @@ const blogs = () => {
           sint. Velit officia consequat duis.
         </p>
       </div>
-      <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
+      <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12 animate-fade animate-delay-300">
         <div>
           <a href="#" title="" className="block aspect-w-4 aspect-h-3">
             <img

@@ -12,16 +12,16 @@ const about = () => {
   <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
     <div className="grid items-center grid-cols-1 md:grid-cols-2">
       <div>
-        <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+        <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl animate-fade-left animate-delay-300">
           Hey 👋 I am <br className="block sm:hidden" />
           Jenny Carter
         </h2>
-        <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+        <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8 animate-fade-right animate-delay-300">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <p className="mt-4 text-xl text-gray-600 md:mt-8">
+        <p className="mt-4 text-xl text-gray-600 md:mt-8 animate-fade-slow animate-delay-500">
           <span className="relative inline-block">
             <span className="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300" />
             <span className="relative"> Have a question? </span>
@@ -44,7 +44,7 @@ const about = () => {
           alt=""
         />
         <img
-          className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
+          className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 animate-fade animate-delay-300"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png"
           alt=""
         />

@@ -7,6 +7,18 @@
     @apply relative before:absolute before:bg-sky-600 before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 
   }
 } */
+@layer utilities {
+  .transform-bgr1S-s1 {
+    transform:rotatez(45deg) translate(5px,0px);
+    }
+  .transform-bgr1S-s2 {
+    transform:rotatez(-45deg);
+  }
+  .transform-bgr1S-s3 {
+    width:50%;
+    transform: translate(14px,-5px) rotatez(45deg);
+  }
+}
 
 .sticky-nav {
   animation: sticky-nav 300ms;

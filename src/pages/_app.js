@@ -5,7 +5,7 @@ import '@/styles/globals.css'
 export default function App({ Component, pageProps }) {
   return <>
   <Navbar/>
-  <section className='[&>*]:animate-fade'>
+  <section className='[&>*]:animate-fade-slow'>
   <Component {...pageProps} />
   </section>
   <Footer/>
